@@ -1,0 +1,43 @@
+
+-------------------1--------------------------
+--SELECT BusinessEntityId, LastName, FirstName 
+--FROM Person.Person;
+---------------------2---------------------------
+--SELECT Name, ProductNumber, Color
+--FROM Production.Product;
+-------------------3---------------------------
+--SELECT BusinessEntityID, JobTitle, LoginID
+--FROM HumanResources.Employee
+--WHERE JobTitle = 'Research and Development Engineer'; 
+-------------------4----------------------------
+--SELECT [ProductID]
+-- ,[Name]
+-- ,[Color]
+-- ,[Size]
+-- ,[StandardCost]
+-- ,[Weight]
+-- ,[ListPrice]
+-- FROM [AdventureWorks2019].[Production].[Product]
+--WHERE Color = 'White';
+-------------------5------------------------------
+--SELECT FirstName, MiddleName, LastName, BusinessEntityID
+--FROM Person.Person
+--WHERE MiddleName = 'J'; 
+-------------------6------------------------------
+--SELECT BusinessEntityID, FirstName, ModifiedDate
+--FROM  [AdventureWorks2019].[Person].[Person]
+--WHERE ModifiedDate > '2013-12-29';
+----ORDER BY FirstName, LastName, MiddleName,
+------------------7-------------------------------
+--SELECT BusinessEntityID, JobTitle, BirthDate, Gender, HireDate
+--FROM [AdventureWorks2019].[HumanResources].[Employee]
+--WHERE HireDate < '2008';
+------------------8---------------------------------SELECT BusinessEntityID, JobTitle, HireDate, VacationHours
+--FROM [AdventureWorks2019].[HumanResources].[Employee]
+--WHERE JobTitle ='Sales Representative' AND VacationHours>35;
+---------------------9----------------------------
+--SELECT DISTINCT ProductId
+--From Purchasing.PurchaseOrderDetail
+
+
+
